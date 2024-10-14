@@ -819,7 +819,6 @@ section {
   -ms-border-radius: 6px;
   -moz-border-radius: 6px;
   -o-border-radius: 6px;
-  box-shadow: 0 0 15px var(--c-dark-main), 0 0 30px var(--c-dark-main), 0 0 50px var(--c-dark-main), 0 0 80px transparent, 0 0 12px var(--c-dark-main) inset, 0 0 25px var(--c-transparent-main) inset;
   position: relative;
   overflow: hidden;
   color: var(--c-mode);
@@ -847,7 +846,7 @@ section {
   color: inherit;
 }
 .my-btn:hover {
-  box-shadow: 0 0 15px var(--c-dark-main), 0 0 30px var(--c-main), 0 0 50px var(--c-dark-main), 0 0 80px var(--c-main), 0 0 12px var(--c-dark-main) inset, 0 0 25px var(--c-transparent-main) inset;
+  background-color: var(--c-transparent-main);
 }
 
 .pump {
@@ -1110,6 +1109,7 @@ header .header-content .navbar .search input:focus ~ svg {
   letter-spacing: 1.5px;
 }
 #hero .row img {
+  width: 550px;
   perspective: 100px;
   filter: drop-shadow(0 2px 4px var(--c-reverse));
   -webkit-filter: drop-shadow(0 2px 4px var(--c-reverse));
@@ -1402,14 +1402,15 @@ header .header-content .navbar .search input:focus ~ svg {
   left: 5px;
   font-weight: 600;
   font-size: 15px;
-  color: var(--c-reverse);
+  color: var(--c-main);
   z-index: 2;
 }
 #team .card .contacts {
-  padding: 8px 4px;
+  padding: 8px 2px 8px 4px;
   border: 8px solid transparent;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   position: absolute;
@@ -1419,7 +1420,7 @@ header .header-content .navbar .search input:focus ~ svg {
   left: auto;
 }
 #team .card .contacts a {
-  font-size: 16px;
+  font-size: 20px;
   color: var(--c-mode);
 }
 #team .card .contacts a:hover {
@@ -1436,6 +1437,7 @@ header .header-content .navbar .search input:focus ~ svg {
   -o-transform: translateX(-50%);
   top: auto;
   bottom: 0;
+  color: var(--c-reverse);
 }
 #team .card:hover .contacts {
   background-color: var(--c-main);

@@ -1,8 +1,8 @@
-# Ican
+# Vcan
 
 ## Overview
 
-**Ican** is a responsive landing page project designed by Myself. It is created using HTML, SCSS, JavaScript, Bootstrap, and incorporates animations for components on scroll. The landing page is designed to be fully responsive, offering a visually appealing and interactive user experience.
+**Vcan** is a responsive landing page project designed by Myself. It is created using HTML, SCSS, JavaScript, Bootstrap, and incorporates animations for components on scroll. The landing page is designed to be fully responsive, offering a visually appealing and interactive user experience.
 
 ### Features:
 
@@ -43,4 +43,4 @@
 - JavaScript
 - Bootstrap
 
-**Ican** project is a dynamic landing page that showcases various features with interactive elements and a focus on responsive design.
+**Vcan** project is a dynamic landing page that showcases various features with interactive elements and a focus on responsive design.
